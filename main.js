@@ -17,9 +17,9 @@ let question = prompt(`Введіть ім'я студента`);
 const verify = groupOne.includes(question);
 
 if(verify === true){
-    console.log('Такий студент є в групі.')
+    console.log('Такий студент є в групі.');
 } else {
-    console.log('Такого студента немає в групі.')
+    console.log('Такого студента немає в групі.');
 }
 
 const groupTwo = groupOne.slice(3, 7);
