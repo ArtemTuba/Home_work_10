@@ -13,7 +13,7 @@ console.log(groupOne);
 groupOne.shift(); 
 console.log(groupOne);
 
-let question = prompt(`Введіть ім'я студента`);
+const question = prompt(`Введіть ім'я студента`);
 const verify = groupOne.includes(question);
 
 if(verify === true){
